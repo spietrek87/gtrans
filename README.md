@@ -2,4 +2,4 @@
 Copy SAP co- and data files and generate a ZIP file.
 
 ##
-SAP® und andere Marken sind eingetragene Marken der SAP SE und / oder ihrer Tochtergesellschaften.
+SAP® and other trademarks are registered trademarks of SAP SE and / or its affiliates.
