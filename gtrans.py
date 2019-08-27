@@ -4,6 +4,7 @@ import sys
 import uuid
 import shutil
 import zipfile
+import datetime
 
 if __name__ == '__main__':
 
@@ -13,11 +14,12 @@ if __name__ == '__main__':
     exit(-1)
 
   # init
+  date = datetime.datetime.now().strftime('%d-%m-%Y') # current date dd-mm-YYYY
   sd = os.getcwd()        # script directory
   td = sys.argv[1]        # transport directory
   sid = sys.argv[2][:3]   # SID of SAP system
   trn = sys.argv[2][4:]   # transport request Number
-  zipname = sys.argv[3]   # name of zip file without extension
+  zipname = sid+'K'+trn+'_'+sys.argv[3].replace(' ', '_')+'_'+date   # name of zip file without extension
 
   if os.path.isdir(td): # is transport directory available
 
