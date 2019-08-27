@@ -8,7 +8,7 @@ gtrans.py <directory> <transport_request> "<description>"
 
 ## Example
 ```
-python gtrans.py \\NETWORKDIR\trans SY1K900123 "zip_file_name_without_extension"
+python gtrans.py \\NETWORKDIR\trans SY1K900123 "SY1K900123_zip_file_name_without_extension_dd-mm-YYYY"
 ```
 
 ##
